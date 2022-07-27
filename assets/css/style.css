@@ -281,7 +281,7 @@ ul {
 /* // FEATURES */
 
 .benefits {
-
+    padding: 0 0 60px;
 }
 
 .benefits-rows {
@@ -302,6 +302,7 @@ ul {
 .benefits-columns.right{
     flex: 0 0 50%;
     max-width: 50%;
+    transform: translateY(-25px);
 }
 .max-width {
     width: 515px;
@@ -320,7 +321,7 @@ ul {
     color: #2F281E;
 }
 
-span {
+.title-text span {
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 16px;
