@@ -105,12 +105,23 @@ ul {
     border-radius: 4px;
     padding: 13px 23px;
     background: #FF9900;
+    transition: background-color .3s ease-in;
+    
+}
+
+.button_up:hover {
+    background-color: #ad7219;
 }
 
 
-.thinking-text{
+/* // THINKING BLOCK */
+.thinking_block {
+    padding: 0 0 100px ;
+}
+
+.thinking-text {
     padding-top: 100px;
-    padding-bottom: 45px;
+    padding-bottom: 25px;
     
 }
 
@@ -200,3 +211,11 @@ ul {
 
 /* // FEATURES */
 
+.features h2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #2F281E;
+}
