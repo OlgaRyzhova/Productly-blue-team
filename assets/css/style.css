@@ -35,13 +35,12 @@ ul {
     padding-right: 15px;
     margin: 0 auto;
     max-width: 1200px;
-        
 }
 
 /* // HEADER */
 
 .header{
-   padding: 18px 0 82px;
+   padding: 18px 0 70px;
 }
 
 .main_container {
@@ -89,9 +88,6 @@ ul {
 }
 
 
-
-
-
 .button_in {
     border-radius: 4px;
     padding: 13px 23px;
@@ -115,7 +111,7 @@ ul {
 /* // THINKING BLOCK */
 
 .thinking_block {
-    padding: 0 0 100px ;
+    padding: 12px 0 100px ;
 }
 
 .thinking-text {
@@ -154,7 +150,6 @@ ul {
 }
 
 
-
 .btn {
     display: inline-block;
     background-color: #FF9900;
@@ -169,8 +164,6 @@ ul {
     text-align: center;
     color: #FFFFFF;
     transition: background-color .3s ease-in;
-    
-   
 }
 
 .btn.black.button_in {
@@ -208,15 +201,9 @@ ul {
     max-width: 55%;
     padding: 0 15px;
 }
-/* .image_block {
-    width: 644px;
-    height: 495px;
-    margin: 0;
-    justify-content: space-between;
-} */
-
 
 /* // FEATURES */
+
 .features {
     position: relative;
     padding: 0 0 100px;
