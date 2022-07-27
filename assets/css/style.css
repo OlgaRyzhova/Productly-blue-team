@@ -231,7 +231,7 @@ ul {
     transition: fill .5s ease-in;
 }
 
-.svg:hover .hover {
+.svg:hover .path {
     fill: #050505;
 }
 
@@ -255,19 +255,19 @@ ul {
 }
 
 .btn {
-        display: inline-block;
-        background-color: #FF9900;
-        border-radius: 4px;
-        padding: 12px 30px;
-        text-decoration: none;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 24px;
-        text-align: center;
-        color: #FFFFFF;
-        transition: background-color .5s ease-in;
+    display: inline-block;
+    background-color: #FF9900;
+    border-radius: 4px;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: background-color .5s ease-in;
 }
 
     
