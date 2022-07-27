@@ -108,7 +108,7 @@ ul {
 /* // THINKING BLOCK */
 
 .thinking_block {
-    padding: 0 0 70px;
+    padding: 0 0 114px;
     display: flex;
 }
 
@@ -156,7 +156,7 @@ ul {
 
 .features {
     position: relative;
-    padding: 0 0 100px;
+    padding: 0 0 210px;
     
 }
 
@@ -185,6 +185,16 @@ ul {
     padding-bottom: 50px;
     max-width: 500px;
     margin: 0 auto;
+}
+
+.name-title {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2F281E;
+    padding-bottom: 18px;
+    
 }
 
 .features-cards {
@@ -265,4 +275,76 @@ ul {
 
 .btn:hover {
     background-color: #7a5a29;
+}
+
+
+/* // FEATURES */
+
+
+.benefits {
+
+}
+
+.benefits-rows {
+    display: flex;
+    margin: 0 -15px;
+}
+
+.benefits-columns {
+    padding: 0 15px;
+}
+
+.benefits-columns.left{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+
+
+.benefits-columns.right{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.max-width {
+    width: 515px;
+    margin: 0 0 auto;
+}
+
+.title-text {
+    padding-bottom: 40px;
+}
+
+.title-text p {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2F281E;
+}
+
+span {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+
+.textblock p {
+    padding-bottom: 15px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2F281E;
+}
+
+.textblock span {
+    padding-bottom: 24px;
+    display: block;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
 }
