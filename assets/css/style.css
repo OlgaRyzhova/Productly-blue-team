@@ -387,6 +387,10 @@ ul {
     display: block;
 }
 
+.label .fake-checkbox {
+    margin: 8px 0;
+}
+
 .pm_block2 .label:not(:last-child) {
     margin-bottom: 30px;
 }
@@ -398,6 +402,12 @@ ul {
     background: #FF9900;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.fake-checkbox:hover {
+    background-color: #ffa765;
+    border: 2px inset lightcoral;
+    transition: background-color .3s ease-in;
 }
 
 .input:checked + .fake-checkbox {
@@ -416,4 +426,5 @@ ul {
     margin-left: 60px;
     display: inline-block;
 }
+
 
