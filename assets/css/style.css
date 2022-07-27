@@ -231,7 +231,7 @@ ul {
     transition: fill .5s ease-in;
 }
 
-.svg:hover .hover {
+.svg:hover .path {
     fill: #050505;
 }
 
