@@ -41,15 +41,16 @@ ul {
 
 .header_container {
     width: 100%;
-    max-width: 1200px;
     padding: 18px 0 20px;
     position: fixed;
     z-index: 5;
-    background-color: #911919;
+    background-color: #FFFFFF9;
 }
 
 .header_block {
-    width: 85%;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: center;
     margin: 0 auto;
 }
 
@@ -88,10 +89,6 @@ ul {
     gap: 10px;
 }
 
-.button_in .button_up:hover{
-    background-color: #7a5a29;
-}
-
 .button_in {
     border-radius: 4px;
     padding: 13px 23px;
@@ -102,7 +99,6 @@ ul {
     transition: background-color .5s ease-in;
 }
 
-
 .button_up {
     color: rgb(255, 255, 255);
     border-radius: 4px;
@@ -112,6 +108,14 @@ ul {
     font-size: 16px;
     line-height: 1.25;  
     transition: background-color .5s ease-in;
+}
+
+.button_in:hover {
+    border: 1px solid #FF9900;
+}
+
+.button_up:hover {
+    background-color: #7a5a29;
 }
 
 /* // THINKING BLOCK */
