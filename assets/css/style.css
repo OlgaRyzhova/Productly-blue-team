@@ -66,7 +66,7 @@ ul {
     flex-direction: row; 
     gap: 20px; 
     font-size: 16px;
-    line-height: 28px;
+    line-height: 1.75;
 }
 
 .nav_item_link:hover {
@@ -77,9 +77,6 @@ ul {
     display: flex;
     flex-direction: row;
     gap: 32px;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.25;
 }
 
 .button {
@@ -103,9 +100,6 @@ ul {
     background: #FF9900;
     
 }
-
-
-
 
 /* // THINKING BLOCK */
 
@@ -132,19 +126,10 @@ ul {
 .text_main {
     font-weight: 700;
     font-size: 44px;
-    line-height: 54px;
+    line-height: 1.23;
     color: #2F281E;
     padding-bottom: 30px;
-}
-
-
-
-.text_main {
     padding-top: 100px;
-    font-weight: 700;
-    font-size: 44px;
-    line-height: 1.23;
-    padding-bottom: 30px;
 }
 
 .text_about {
@@ -153,13 +138,11 @@ ul {
     padding-bottom: 30px;
 }
 
-
 /* // FEATURES */
 
 .features {
     position: relative;
     padding: 0 0 210px;
-    
 }
 
 .features:before {
@@ -271,8 +254,6 @@ ul {
     color: #FFFFFF;
     transition: background-color .5s ease-in;
 }
-
-    
 
 .btn:hover {
     background-color: #7a5a29;
