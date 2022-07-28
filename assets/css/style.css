@@ -82,10 +82,9 @@ ul {
 .button {
     display: flex;
     gap: 10px;
-    transition: background-color .5s ease-in;
 }
 
-.button:hover{
+.button_in .button_up:hover{
     background-color: #7a5a29;
 }
 
@@ -96,6 +95,7 @@ ul {
     font-weight: 600;
     font-size: 16px;
     line-height: 1.25;
+    transition: background-color .5s ease-in;
 }
 
 .button_up {
@@ -105,7 +105,8 @@ ul {
     background: #FF9900;
     font-weight: 600;
     font-size: 16px;
-    line-height: 1.25;    
+    line-height: 1.25;  
+    transition: background-color .5s ease-in;
 }
 
 /* // THINKING BLOCK */
@@ -128,6 +129,11 @@ ul {
     line-height: 24px;
     text-align: center;
     color: #FFFFFF;
+    transition: background-color .5s ease-in;
+}
+
+.button_start:hover{
+    background-color: #7a5a29;
 }
 
 .text_main {
