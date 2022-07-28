@@ -45,11 +45,12 @@ ul {
     padding: 18px 0 20px;
     position: fixed;
     z-index: 5;
-    background-color: #FFFFFF;
+    background-color: #911919;
 }
 
 .header_block {
-    width: 100%;
+    width: 85%;
+    margin: 0 auto;
 }
 
 .nav_block {
@@ -100,6 +101,7 @@ ul {
     line-height: 1.25;
     transition: background-color .5s ease-in;
 }
+
 
 .button_up {
     color: rgb(255, 255, 255);
@@ -228,6 +230,7 @@ ul {
 .svg {
     margin-bottom: 20px;
 }
+
 .svg .hover {
     transition: fill .5s ease-in;
 }
