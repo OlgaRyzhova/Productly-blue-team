@@ -40,13 +40,16 @@ ul {
 /* // HEADER */
 
 .header_container {
-   padding: 18px 0 70px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 18px 0 20px;
+    position: fixed;
+    z-index: 5;
+    background-color: #FFFFFF;
 }
 
-.main_container {
-    background-color: #FFFFFF;
-    position: fixed;
-    z-index: 1;
+.header_block {
+    width: 100%;
 }
 
 .nav_block {
@@ -112,7 +115,7 @@ ul {
 /* // THINKING BLOCK */
 
 .thinking_block {
-    padding: 0 0 114px;
+    padding: 100px 0 114px;
     display: flex;
 }
 
