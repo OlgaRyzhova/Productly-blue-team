@@ -82,6 +82,11 @@ ul {
 .button {
     display: flex;
     gap: 10px;
+    transition: background-color .5s ease-in;
+}
+
+.button:hover{
+    background-color: #7a5a29;
 }
 
 .button_in {
