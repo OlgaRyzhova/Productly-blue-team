@@ -82,15 +82,15 @@ ul {
 .button {
     display: flex;
     gap: 10px;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
 }
 
 .button_in {
     border-radius: 4px;
     padding: 13px 23px;
     border: 1px solid #BCD0E5;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
 }
 
 .button_up {
@@ -98,7 +98,9 @@ ul {
     border-radius: 4px;
     padding: 13px 23px;
     background: #FF9900;
-    
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;    
 }
 
 /* // THINKING BLOCK */
