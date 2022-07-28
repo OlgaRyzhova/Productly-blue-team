@@ -12,7 +12,6 @@ body, html {
 
 h1,h2,h3,h4,h5,h6 {
     margin: 0;
-
 }
 
 a {
@@ -30,6 +29,7 @@ ul {
     padding: 0;
     list-style-type: none;
 }
+
 .container {
     padding-left: 15px;
     padding-right: 15px;
@@ -48,7 +48,6 @@ ul {
     position: fixed;
     z-index: 1;
 }
-
 
 .nav_block {
     width: 100%;
@@ -70,7 +69,6 @@ ul {
     line-height: 28px;
 }
 
-
 .nav_item_link:hover {
     color: #FF9900;
 }
@@ -83,9 +81,13 @@ ul {
     font-size: 16px;
     line-height: 1.25;
 }
+
 .button {
     display: flex;
     gap: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .button_in {
