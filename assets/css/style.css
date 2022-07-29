@@ -430,6 +430,12 @@ ul {
 }
 /*====================FOOTER===============*/
 
+
+.footer_container{
+    width: 75%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .bord {
     border: 1px solid #F2F2F2;
     margin-top: 100px;
@@ -438,6 +444,7 @@ ul {
     display: flex;
     justify-content: space-between;
     padding: 70px 0 70px 0;
+   
    
 }
 .footer_flex>img{
@@ -479,7 +486,10 @@ ul {
     color: rgb(42, 74, 139);
 }
 .blok_btn_footer{
-    max-width: 25%;
+    width: 25%;
+    width: 350px;
+
+    
 }
 .blok_btn_footer>p {
     padding-top: 15px;
@@ -492,17 +502,19 @@ ul {
     font-size: 20px;
     color: #2F281E;
 }
+
 .blok_btn_footer>input{
     margin-top: 25px;
     border: 1px solid #BCD0E5;
     border-radius: 4px;
     width: 340px;
     height: 50px;
-    padding-left: 20px;
+    padding-left: 10px;
     font-weight: 400;
     font-size: 16px;
     color: #BCD0E5;
     opacity: 0.5;
+    
 }
 .btn_footer {
    margin-top:  25px;
