@@ -296,26 +296,22 @@ ul {
 
 .benefits-columns {
     padding: 0 15px;
-}
-
-.benefits-columns.left{
-    flex: 0 0 50%;
+    flex: 50%;
     max-width: 50%;
 }
-
 
 .benefits-columns.right{
-    flex: 0 0 50%;
-    max-width: 50%;
     transform: translateY(-25px);
 }
+
+
 .max-width {
-    width: 515px;
+    max-width: 515px;
     margin: 0 0 auto;
 }
 
 .title-text {
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .title-text p {
@@ -335,7 +331,7 @@ ul {
 }
 
 .textblock p {
-    padding-bottom: 15px;
+    margin-bottom: 15px;
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 16px;
@@ -344,7 +340,7 @@ ul {
 }
 
 .textblock span {
-    padding-bottom: 24px;
+    margin-bottom: 24px;
     display: block;
     font-family: 'Montserrat';
     font-weight: 500;
