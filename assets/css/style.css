@@ -428,14 +428,45 @@ ul {
     margin-left: 60px;
     display: inline-block;
 }
+/*-------------------------*/
+.marketes_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 100px 0 60px;
+}
+.Professionals_text{
+padding-right: 160px;
+}
+.pading_text{
+    padding-top: 15px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #544837;
+}
+.h2_Professionals {
+    padding-top: 5px;
+    font-weight: 700;
+    font-size: 36px;
+    color: #2F281E;
+}
+.blocks {
+    width: 562px;
+    height: 573px;
+   
+}
+.text_market{
+    font-weight: 700;
+    font-size: 20px;
+    color: #2F281E;
+    display: block;
+    padding-top: 30px;
+}
+
+
 /*====================FOOTER===============*/
 
 
-.footer_container{
-    width: 75%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
 .bord {
     border: 1px solid #F2F2F2;
     margin-top: 100px;
