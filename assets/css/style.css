@@ -433,7 +433,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   padding: 100px 0 60px;
+   padding: 0 0 60px;
 }
 .Professionals_text{
 padding-right: 160px;
@@ -443,6 +443,7 @@ padding-right: 160px;
     font-weight: 500;
     font-size: 16px;
     color: #544837;
+    line-height: 26px;
 }
 .h2_Professionals {
     padding-top: 5px;
@@ -504,7 +505,7 @@ padding-right: 160px;
     text-decoration: none;
 }
 .qwick>a:hover{
-    color: rgb(42, 74, 139);
+    color: #ffa765;
 }
 .legal>a {
     padding-top: 24px;
@@ -514,7 +515,7 @@ padding-right: 160px;
     text-decoration: none;
 }
 .legal>a:hover{
-    color: rgb(42, 74, 139);
+    color: #ffa765;
 }
 .blok_btn_footer{
     width: 25%;
