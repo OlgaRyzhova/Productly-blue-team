@@ -84,30 +84,27 @@ ul {
     gap: 32px;
 }
 
-.button {
+.button_container{
     display: flex;
-    gap: 10px;
+    gap: 32px;
+    text-align: center;
 }
 
-.button_in {
+.button {
     border-radius: 4px;
-    padding: 13px 23px;
-    border: 1px solid #BCD0E5;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.25;
-    transition: background-color .5s ease-in;
+    background: #FF9900;
+    color: #FFFFFF;
+    padding: 13px 23px;
 }
 
-.button_up {
-    color: rgb(255, 255, 255);
-    border-radius: 4px;
-    padding: 13px 23px;
-    background: #FF9900;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.25;  
+.singin{
+    background-color: #fff;
+    border: 1px solid #BCD0E5;
     transition: background-color .5s ease-in;
+    color: #2F281E;
 }
 
 .button_in:hover {
@@ -121,27 +118,11 @@ ul {
 /* // THINKING BLOCK */
 
 .thinking_block {
-    padding: 100px 0 114px;
+    padding: 150px 0 114px;
     display: flex;
 }
 
-.button_start {
-    display: inline-block;
-    background-color: #FF9900;
-    border-radius: 4px;
-    padding: 12px 30px;
-    text-decoration: none;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: #FFFFFF;
-    transition: background-color .5s ease-in;
-}
-
-.button_start:hover{
+.btn_start:hover{
     background-color: #7a5a29;
 }
 
@@ -155,6 +136,7 @@ ul {
 }
 
 .text_about {
+    color: #544837;
     font-size: 18px;
     line-height: 1.55;
     padding-bottom: 30px;
@@ -267,7 +249,7 @@ ul {
     display: inline-block;
     background-color: #FF9900;
     border-radius: 4px;
-    padding: 12px 30px;
+    padding: 12px 40px;
     text-decoration: none;
     font-family: 'Poppins';
     font-style: normal;
