@@ -106,9 +106,18 @@ ul {
     transition: background-color .5s ease-in;
     color: #2F281E;
 }
+/* .singin:hover{
+    box-shadow:0 5px 10px rgba(36, 36, 24, 0.5);
+    background-color: #e6d4b6;
+}
+.singup:hover{
+    box-shadow:0 5px 10px rgba(36, 36, 24, 0.5);
+    background-color: #7a5a29;
+} */
 
 .button_in:hover {
     border: 1px solid #FF9900;
+    
 }
 
 .button_up:hover {
@@ -263,6 +272,7 @@ ul {
 
 .btn:hover {
     background-color: #7a5a29;
+    /* box-shadow:0 5px 10px rgba(36, 36, 24, 0.5); */
 }
 
 
@@ -418,7 +428,7 @@ ul {
     align-items: center;
    padding: 0 0 60px;
 }
-.Professionals_text{
+.marketes_text{
 padding-right: 160px;
 }
 .pading_text{
@@ -428,7 +438,7 @@ padding-right: 160px;
     color: #544837;
     line-height: 26px;
 }
-.h2_Professionals {
+.h2_marketers {
     padding-top: 5px;
     font-weight: 700;
     font-size: 36px;
@@ -451,9 +461,10 @@ padding-right: 160px;
 /*====================FOOTER===============*/
 
 
-.bord {
+.border {
     border: 1px solid #F2F2F2;
     margin-top: 100px;
+    
 }
 .footer_flex {
     display: flex;
@@ -532,6 +543,7 @@ padding-right: 160px;
     
 }
 .btn_footer {
-   margin-top:  25px;
+    padding: 12px 40px;
+    margin-top:  25px;
 }
 
