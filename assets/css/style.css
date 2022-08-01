@@ -115,13 +115,14 @@ ul {
     background-color: #7a5a29;
 } */
 
-.button_in:hover {
+.singin:hover {
     border: 1px solid #FF9900;
-    
+    transition: border .2s ease-in;
 }
 
-.button_up:hover {
+.singup:hover {
     background-color: #7a5a29;
+    transition: background-color .5s ease-in;
 }
 
 /* // THINKING BLOCK */
