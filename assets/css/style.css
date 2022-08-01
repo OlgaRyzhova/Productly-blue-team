@@ -343,7 +343,7 @@ ul {
 }
 
 
-/*--------Product-Managers--------*/
+/*---Product-Managers---*/
 
 .product_managers {
     padding-bottom: 100px;
@@ -365,7 +365,6 @@ ul {
 }
 
 .block1_text {
-    font-family: 'Montserrat';
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
@@ -373,54 +372,41 @@ ul {
     margin-bottom: 40px;
 }
 
-.input {
-    position: absolute;
-    -webkit-appearance: none;
-}
-
-.label {
-    display: block;
-}
-
-.label .fake-checkbox {
-    margin: 8px 0;
-}
-
-.pm_block2 .label:not(:last-child) {
-    margin-bottom: 30px;
-}
-
-.fake-checkbox {
-    position: absolute;
-    width: 35px;
-    height: 35px;
-    background: #FF9900;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.fake-checkbox:hover {
-    background-color: #ffa765;
-    border: 2px inset lightcoral;
-    transition: background-color .3s ease-in;
-}
-
-.input:checked + .fake-checkbox {
-    background-image: url(../img/checkbox.svg);
-    display: block;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.checkbox_text {
-    font-family: 'Montserrat';
+.pm_list {
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     color: #544837;
-    margin-left: 60px;
-    display: inline-block;
 }
+
+.mark {
+    display: flex;
+    align-items: center;
+}
+
+.mark:before {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    width: 35px;
+    height: 35px;
+    background-color: #FF9900;
+    border-radius: 10px;
+    background-image: url(../img/checkbox.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pm_block2 .mark:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.pm_list_item {
+    padding-left: 65px;
+}
+
+
+
 /*-------------------------*/
 .marketes_flex {
     display: flex;
